@@ -16,7 +16,7 @@ try{
 
 const query = encodeURIComponent("방탄소년단 지민");
 
-const url = `https://openapi.naver.com/v1/search/news.json?query=${query}&display=150&sort=date`;
+const url = `https://openapi.naver.com/v1/search/news.json?query=${query}&display=95&sort=date`;
 
 const response = await fetch(url,{
 headers:{
